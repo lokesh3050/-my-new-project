@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Project Plan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 850px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #222;
+    }
+    h1, h2 {
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 6px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 30px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #f4f4f4;
+    }
+    .badge {
+      color: #fff;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-size: 13px;
+      font-weight: bold;
+    }
+    .issue-box {
+      border: 1px solid #ddd;
+      padding: 15px 20px;
+      margin-bottom: 20px;
+      border-radius: 6px;
+    }
+    .issue-box h3 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>GitHub Repository Project Plan</h1>
+  <p>Overview of 5 Milestones, 5 Labels, 5 Main Issues, and 25 Sub-tasks.</p>
+
+  <!-- 5 Milestones Section -->
+  <h2>1. Project Milestones (5)</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Milestone</th>
+        <th>Due Date</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Phase 1: Foundation &amp; Setup</td>
+        <td>Dec 3, 2026</td>
+        <td>Repository structure, dev environment, CI/CD, and README.</td>
+      </tr>
+      <tr>
+        <td>Phase 2: Backend &amp; Data Layer</td>
+        <td>Dec 17, 2026</td>
+        <td>Database schema, migrations, and core CRUD APIs.</td>
+      </tr>
+      <tr>
+        <td>Phase 3: Frontend &amp; User Interface</td>
+        <td>Dec 31, 2026</td>
+        <td>Routing, UI components, dashboard views, and mobile responsiveness.</td>
+      </tr>
+      <tr>
+        <td>Phase 4: Authentication &amp; Security</td>
+        <td>Jan 14, 2027</td>
+        <td>User login, tokens, role access, and security audits.</td>
+      </tr>
+      <tr>
+        <td>Phase 5: Testing, Docs &amp; Launch</td>
+        <td>Jan 28, 2027</td>
+        <td>Unit/E2E tests, documentation, production hosting, and v1.0.0 release.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 5 Labels Section -->
+  <h2>2. Issue Labels (5)</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Label</th>
+        <th>Hex Code</th>
+        <th>Purpose</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="badge" style="background-color: #0E8A16;">setup</span></td>
+        <td>#0E8A16</td>
+        <td>Repository architecture and environment setup</td>
+      </tr>
+      <tr>
+        <td><span class="badge" style="background-color: #1D76DB;">backend</span></td>
+        <td>#1D76DB</td>
+        <td>Database models and backend API services</td>
+      </tr>
+      <tr>
+        <td><span class="badge" style="background-color: #D93F0B;">frontend</span></td>
+        <td>#D93F0B</td>
+        <td>User interface screens and styling</td>
+      </tr>
+      <tr>
+        <td><span class="badge" style="background-color: #B60205;">security</span></td>
+        <td>#B60205</td>
+        <td>Authentication and endpoint protection</td>
+      </tr>
+      <tr>
+        <td><span class="badge" style="background-color: #5319E7;">qa-release</span></td>
+        <td>#5319E7</td>
+        <td>Testing, documentation, and deployment</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 5 Main Issues & 25 Sub-tasks Section -->
+  <h2>3. Main Issues (5) &amp; Sub-tasks (25)</h2>
+
+  <div class="issue-box">
+    <h3>Issue #1: Project Setup &amp; Architecture <span class="badge" style="background-color: #0E8A16;">setup</span></h3>
+    <ul>
+      <li>Sub-task 1.1: Initialize repository structure, .gitignore, and license.</li>
+      <li>Sub-task 1.2: Configure development environment and dependency manager.</li>
+      <li>Sub-task 1.3: Set up linting, formatting, and pre-commit hooks.</li>
+      <li>Sub-task 1.4: Configure CI/CD pipeline for automated checks.</li>
+      <li>Sub-task 1.5: Write initial setup instructions in README.md.</li>
+    </ul>
+  </div>
+
+  <div class="issue-box">
+    <h3>Issue #2: Core Backend &amp; Data Layer <span class="badge" style="background-color: #1D76DB;">backend</span></h3>
+    <ul>
+      <li>Sub-task 2.1: Design database schema and data models.</li>
+      <li>Sub-task 2.2: Set up database connection and migration scripts.</li>
+      <li>Sub-task 2.3: Implement core CRUD API endpoints/services.</li>
+      <li>Sub-task 2.4: Add input validation and error handling middleware.</li>
+      <li>Sub-task 2.5: Configure environment variables and secrets management.</li>
+    </ul>
+  </div>
+
+  <div class="issue-box">
+    <h3>Issue #3: User Interface &amp; Frontend <span class="badge" style="background-color: #D93F0B;">frontend</span></h3>
+    <ul>
+      <li>Sub-task 3.1: Set up frontend routing and layout structure.</li>
+      <li>Sub-task 3.2: Build reusable UI components (buttons, forms, modals).</li>
+      <li>Sub-task 3.3: Implement main dashboard/home view.</li>
+      <li>Sub-task 3.4: Connect frontend views to backend APIs.</li>
+      <li>Sub-task 3.5: Ensure mobile responsiveness and cross-browser styling.</li>
+    </ul>
+  </div>
+
+  <div class="issue-box">
+    <h3>Issue #4: Authentication &amp; Security <span class="badge" style="background-color: #B60205;">security</span></h3>
+    <ul>
+      <li>Sub-task 4.1: Implement user registration and login flow.</li>
+      <li>Sub-task 4.2: Set up session/token management (JWT or OAuth).</li>
+      <li>Sub-task 4.3: Add role-based access control (RBAC) and route guards.</li>
+      <li>Sub-task 4.4: Implement password reset and account recovery.</li>
+      <li>Sub-task 4.5: Audit endpoints for common security vulnerabilities.</li>
+    </ul>
+  </div>
+
+  <div class="issue-box">
+    <h3>Issue #5: Testing, Documentation &amp; Launch <span class="badge" style="background-color: #5319E7;">qa-release</span></h3>
+    <ul>
+      <li>Sub-task 5.1: Write unit tests for core business logic.</li>
+      <li>Sub-task 5.2: Write integration and end-to-end (E2E) tests.</li>
+      <li>Sub-task 5.3: Complete API and user documentation.</li>
+      <li>Sub-task 5.4: Configure production hosting and domain/SSL settings.</li>
+      <li>Sub-task 5.5: Perform final QA check and tag v1.0.0 release.</li>
+    </ul>
+  </div>
+
+</body>
+</html>
